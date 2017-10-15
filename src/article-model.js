@@ -1,8 +1,13 @@
 (function(exports){
-  function Article(content, id){
+  function Article(headline, content, id){
+    this.headline = headline;
     this.content = content;
     this.id = id
   };
+
+  Article.prototype.getHeadline = function() {
+    return this.headline;
+  }
 
   Article.prototype.getContent = function() {
     return this.content;
