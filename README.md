@@ -1,3 +1,22 @@
+# My approach
+
+This application is intended to return a list of current news headlines that will link to the content of each article. It has been developed using TDD principles. At this stage, it is possible to list a selection of articles (user defined and not from an API). There are a number of extra features to be implemented. These include:
+
+- database functionality to support data persistence.
+- Integration with external APIs.
+- The ability to create new listings.
+
+
+# How to use
+
+  To view the current state of the application:
+
+ - in terminal, 'git clone https://github.com/Marcus-UK/news-summary-challenge.git'.
+ - in terminal, type 'run index.html'
+ - Open developer tools in chrome and paste the contents of 'setup.js' in to the
+   console. Run this content.
+
+
 # News Summary challenge
 
 * Challenge time: rest of the day and weekend, until Monday 9am.

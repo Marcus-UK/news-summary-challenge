@@ -12,5 +12,9 @@
     this.articles.push(article);
   };
 
+  ArticleList.prototype.articleID = function(id) {
+    return this.articles[i]
+  }
+
 exports.ArticleList = ArticleList;
 })(this);

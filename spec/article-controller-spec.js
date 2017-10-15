@@ -15,7 +15,7 @@ function testArticleControllerReturnsHtml(){
     articlecontroller.listView = articlelistviewdouble;
 
     articlecontroller.viewArticle();
-    assert.isTrue(document.getElementById('article').innerHTML === headline)
+    assert.isTrue(document.getElementById('articles').innerHTML === headline)
      }
 
      testArticleControllerReturnsHtml();
